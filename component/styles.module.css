@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #65bd8d, #b2bf69);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+  }
+
+  
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    color: #395a05;
+    margin-bottom: 20px;
+  }
+  
+
+  .form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    color: #055705;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 4px solid #516806;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  
+  .button {
+    font-family:'Gill Sans',  'Arial Narrow Bold';
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #075b23;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  .button:hover {
+    background-color: #a2f059;
+  }
+  
+  .weatherCard {
+    background-color: rgba(238, 233, 200, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(15, 103, 4, 0.1);
+  }
+  
+  .weatherCard h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #557608;
+  }
+
+
+  
+  .weatherCard p {
+  
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #055705;
+  }
+
+
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  
+  
+  .weatherImage {
+  
+    margin-left: 30%;
+    justify-items: center;
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: for rounded corners */
+    
+    background-color: transparent; /* Ensure background is transparent */
+  }
+
+  
